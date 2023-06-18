@@ -2,6 +2,7 @@ import { StyleSheet, Text, View, Image} from 'react-native';
 import Titulo from './titulo.js';
 import Stories from './stories.js';
 import Menu from './Menu.js';
+import Post from './Post.js';
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Titulo/>
       <Stories/> 
       <Menu/> 
+      <Post/> 
     </View>
   );
 }

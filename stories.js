@@ -20,7 +20,7 @@ export default function Stories() {
             >
                 <View style={styles.imageContainer}>
                     <Image style={styles.minhaimgame} source={require('./assets/img/1.jpg')} />
-                    <Text style={styles.imageLabel}>TiagoVécao</Text>
+                    <Text style={styles.imageLabel}>Tiago</Text>
                 </View>
                 <View style={styles.imageContainer}>
                     <Image style={styles.image} source={require('./assets/img/2.jpg')} />
@@ -28,15 +28,15 @@ export default function Stories() {
                 </View>
                 <View style={styles.imageContainer}>
                     <Image style={styles.image} source={require('./assets/img/3.jpg')} />
-                    <Text style={styles.imageLabel}>Negrin</Text>
+                    <Text style={styles.imageLabel}>Lucas</Text>
                 </View>
                 <View style={styles.imageContainer}>
                     <Image style={styles.image} source={require('./assets/img/4.jpg')} />
-                    <Text style={styles.imageLabel}>Rei dela</Text>
+                    <Text style={styles.imageLabel}>Eduardo</Text>
                 </View>
                 <View style={styles.imageContainer}>
                     <Image style={styles.image} source={require('./assets/img/5.jpg')} />
-                    <Text style={styles.imageLabel}>Developer</Text>
+                    <Text style={styles.imageLabel}>Vinicius</Text>
                 </View>
             </ScrollView>
         </View>
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
         borderRadius: 40,
         marginRight: 10,
         borderWidth: 2,
-        borderColor: 'gray',
+        borderColor:'gray' ,
     },
     image: {
         width: 80,
